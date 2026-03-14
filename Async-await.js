@@ -1,5 +1,5 @@
 //Sintaxe do async-await 
-/*
+
 function PrimeiraFuncao() {
     return new Promise ((resolve) => {
         setTimeout(() => {
@@ -17,11 +17,12 @@ async function SegundaFuncao() {
 }
 
 //Invococamos a função
-SegundaFuncao() */
+SegundaFuncao() 
 
 //Prático
 
 /*
+Não funcional(mas serve de bom estudo de caso)
 function getuser(id) {
     return fetch(`http://reqres.in/api/users?id=${id}`)
     .then(data => data.json())
@@ -45,7 +46,9 @@ function getuser(id) {
       .catch(err => console.log(err));
   }
   
-  /*async function ShowUserName(id) {
+  /*
+  Exibe apenas o nome do Usuário
+  async function ShowUserName(id) {
     const User = await getuser(id);
     console.log(`O nome do usuário é: ${User.name}`); // ← sem .data
   }
