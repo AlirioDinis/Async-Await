@@ -52,4 +52,4 @@ API gratuita e publica utilizada para testes e prototipagem, que fornece dados f
 
 ## Repositorio
 
-https://github.com/AlirioDinis/Asycrnb-Await
+https://github.com/AlirioDinis/Async-Await
