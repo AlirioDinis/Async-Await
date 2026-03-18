@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ansyc await</title>
+    <title>Async Await</title>
+    <link rel="stylesheet" href="Style.css">
+    <script type="module" src="Async-await.js"></script>
 </head>
 <body>
-    <script type="module" src="Async-await.js"></script>
+    <div class="container">
+        <h1 class="menu">Consultoria de utilizadores da API</h1>
+    </div>
+
+    <div class="container-2">
+        <div class="search">
+            <input type="number" id="input-id" placeholder="Digite o ID do utilizador" min="1" max="10" />
+            <button id="btn-buscar">Buscar</button>
+        </div>
+
+        <div id="resultado" class="resultado"></div>
+    </div>
 </body>
 </html>
